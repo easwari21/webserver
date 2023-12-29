@@ -47,7 +47,7 @@ content="""
 
 
 
-"""
+
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         print("Get request recieved...")
