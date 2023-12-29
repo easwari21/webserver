@@ -47,7 +47,7 @@ content="""
 
 
 
-
+"""
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         print("Get request recieved...")
@@ -58,7 +58,8 @@ class MyServer(BaseHTTPRequestHandler):
 print("This is my Webserver")
 server_address=('', 80)
 httpd=HTTPServer(server_address,MyServer)
-httpd.serve_forever()"""
+httpd.serve_forever()
+
 
 ## OUTPUT:
 ![228840650-676ae7b6-805e-45b0-959d-7f04af7883aa](https://github.com/easwari21/webserver/assets/131534979/346efea8-a3d0-46bf-b741-159a75ca2ccf)
